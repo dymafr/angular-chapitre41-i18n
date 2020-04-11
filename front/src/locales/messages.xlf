@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="moncustomid" datatype="html">
+        <source>
+  Hello World !
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">just saying hello in the main page</note>
+        <note priority="1" from="meaning">site-title</note>
+      </trans-unit>
+      <trans-unit id="placeholderusername" datatype="html">
+        <source>enter your name</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9562b587156cc9964be3f4e585598ab25904002a" datatype="html">
+        <source>
+  The message was created : <x id="ICU" equiv-text="{ x, plural, =0 {...} =1 {...} other {...}}"/>
+</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c13849b9a21eb3c7d44fbef9c2e3cfaea4e2a4de" datatype="html">
+        <source>{VAR_PLURAL, plural, =0 {just now } =1 {one minute ago } other {<x id="INTERPOLATION" equiv-text="{{ x }}"/> minutes ago } }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18a2101b6de3627f8173cca9978687146115364d" datatype="html">
+        <source>male</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="90132202e554a6642f937453a63a6df19131bb75" datatype="html">
+        <source>female</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dd838a9fc50c7204b56dcc92edca4508e48fcbba" datatype="html">
+        <source>You are <x id="ICU" equiv-text="{gender, select, male {...} female {...}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ea24c74b66d52ccc697def94c81842203f080c9" datatype="html">
+        <source>{VAR_SELECT, select, male {male } female {female } }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+        <trans-unit id="website-hello" datatype="html">
+        <source>I am a website</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
