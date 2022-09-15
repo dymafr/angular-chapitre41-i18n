@@ -1,72 +1,82 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en-US" datatype="plaintext" original="ng2.template">
-    <body>
-      <trans-unit id="moncustomid" datatype="html">
-        <source>
-  Hello World !
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
+  <file id="ngi18n" original="ng.template">
+    <unit id="moncustomid">
+      <notes>
+        <note category="location">src/app/app.component.html:4,6</note>
+        <note category="description">just saying hello in the main page</note>
+        <note category="meaning">site-title</note>
+      </notes>
+      <segment>
+        <source> Hello World !
 </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">1</context>
-        </context-group>
-        <note priority="1" from="description">just saying hello in the main page</note>
-        <note priority="1" from="meaning">site-title</note>
-      </trans-unit>
-      <trans-unit id="placeholderusername" datatype="html">
+      </segment>
+    </unit>
+    <unit id="placeholderusername">
+      <notes>
+        <note category="location">src/app/app.component.html:15</note>
+      </notes>
+      <segment>
         <source>enter your name</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">12</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9562b587156cc9964be3f4e585598ab25904002a" datatype="html">
-        <source>
-  The message was created : <x id="ICU" equiv-text="{ x, plural, =0 {...} =1 {...} other {...}}"/>
+      </segment>
+    </unit>
+    <unit id="2278692157728715600">
+      <notes>
+        <note category="location">src/app/app.component.html:21,24</note>
+      </notes>
+      <segment>
+        <source> The message was created: <ph id="0" equiv="ICU" disp="{ x, plural, =0 { just now } =1 { one minute ago }
+  other {{{ x }} minutes ago }}" subFlows="7870964618060443722"/>
 </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c13849b9a21eb3c7d44fbef9c2e3cfaea4e2a4de" datatype="html">
-        <source>{VAR_PLURAL, plural, =0 {just now } =1 {one minute ago } other {<x id="INTERPOLATION" equiv-text="{{ x }}"/> minutes ago } }</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">19</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="18a2101b6de3627f8173cca9978687146115364d" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7219627108166422149">
+      <notes>
+        <note category="location">src/app/app.component.html:22,23</note>
+      </notes>
+      <segment>
+        <source>{VAR_PLURAL, plural, =0 {just now } =1 {one minute ago } other {<ph id="0" equiv="INTERPOLATION"/> minutes ago }}</source>
+      </segment>
+    </unit>
+    <unit id="5743999575330197666">
+      <notes>
+        <note category="location">src/app/app.component.html:27</note>
+      </notes>
+      <segment>
         <source>male</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">24</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="90132202e554a6642f937453a63a6df19131bb75" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8780288282078058831">
+      <notes>
+        <note category="location">src/app/app.component.html:28</note>
+      </notes>
+      <segment>
         <source>female</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">25</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dd838a9fc50c7204b56dcc92edca4508e48fcbba" datatype="html">
-        <source>You are <x id="ICU" equiv-text="{gender, select, male {...} female {...}}"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7ea24c74b66d52ccc697def94c81842203f080c9" datatype="html">
-        <source>{VAR_SELECT, select, male {male } female {female } }</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">26</context>
-        </context-group>
-      </trans-unit>
-        <trans-unit id="website-hello" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7121242982072112131">
+      <notes>
+        <note category="location">src/app/app.component.html:29</note>
+      </notes>
+      <segment>
+        <source>You are <ph id="0" equiv="ICU" disp="{gender, select, male { male } female { female }}" subFlows="8253093301613023838"/></source>
+      </segment>
+    </unit>
+    <unit id="8253093301613023838">
+      <notes>
+        <note category="location">src/app/app.component.html:29</note>
+      </notes>
+      <segment>
+        <source>{VAR_SELECT, select, male {male } female {female }}</source>
+      </segment>
+    </unit>
+    <unit id="website-hello">
+      <notes>
+        <note category="location">src/app/app.component.ts:9</note>
+      </notes>
+      <segment>
         <source>I am a website</source>
-      </trans-unit>
-    </body>
+      </segment>
+    </unit>
   </file>
 </xliff>
