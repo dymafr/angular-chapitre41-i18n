@@ -4,6 +4,7 @@
   "newProjectRoot": "projects",
   "projects": {
     "front": {
+      "projectType": "application",
       "schematics": {},
       "root": "",
       "i18n": {
